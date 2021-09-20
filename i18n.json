@@ -1,0 +1,8 @@
+{
+  "locales": ["en", "dk", "pl"],
+  "defaultLocale": "en",
+  "pages": {
+    "/": ["landing"],
+    "/landing": ["landing"]
+  }
+}

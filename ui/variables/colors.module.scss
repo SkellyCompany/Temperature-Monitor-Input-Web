@@ -1,0 +1,17 @@
+$primary-color: #3f37c9;
+$background-primary-color: #ffffff;
+$background-secondary-color: #f2f2f7;
+$background-ternary-color: #d1d1d6;
+$background-quaternary-color: #c7c7cc;
+$text-primary-color: #000000;
+$text-secondary-color: #1c1c1e;
+$text-ternary-color: #2c2c2e;
+$text-quaternary-color: #3a3a3c;
+$red-color: #ff453c;
+
+:export {
+  background-primary-color: $background-primary-color;
+  background-secondary-color: $background-secondary-color;
+  background-ternary-color: $background-ternary-color;
+  background-quaternary-color: $background-quaternary-color;
+}

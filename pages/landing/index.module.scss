@@ -1,0 +1,14 @@
+@import "../../ui/variables/colors.module.scss";
+@import "../../ui/variables/fonts.module.scss";
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $primary-color;
+  font: $main-font;
+  font-size: 3rem;
+  font-weight: 600;
+}
