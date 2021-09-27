@@ -69,7 +69,7 @@ function LandingPage(props: IBasePageHOCProps) {
   function didTapSendHumidity() {
     humidityService
       .sendRecord({
-        value: temperature,
+        value: humidity / 100,
         time: Date.now() / 1000,
       })
       .then((response) => {

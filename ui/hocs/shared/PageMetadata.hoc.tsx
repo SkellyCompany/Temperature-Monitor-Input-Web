@@ -15,14 +15,12 @@ function PageMetadata(props: IProps) {
 
   const pageMetadata = new Page({
     src: props.pageMetadata?.src ?? "/",
-    name: props.pageMetadata?.name ?? "Temperature Monitor Output",
-    description:
-      props.pageMetadata?.description ?? "Temperature Monitor Output",
-    metaTitle: props.pageMetadata?.metaTitle ?? "Temperature Monitor Output",
+    name: props.pageMetadata?.name ?? "Temperature Monitor Input",
+    description: props.pageMetadata?.description ?? "Temperature Monitor Input",
+    metaTitle: props.pageMetadata?.metaTitle ?? "Temperature Monitor Input",
     metaDescription:
-      props.pageMetadata?.metaDescription ?? "Temperature Monitor Output",
-    metaKeyword:
-      props.pageMetadata?.metaKeyword ?? "Temperature Monitor Output",
+      props.pageMetadata?.metaDescription ?? "Temperature Monitor Input",
+    metaKeyword: props.pageMetadata?.metaKeyword ?? "Temperature Monitor Input",
     canonicalPath: props.pageMetadata?.canonicalPath ?? "/",
   });
 
