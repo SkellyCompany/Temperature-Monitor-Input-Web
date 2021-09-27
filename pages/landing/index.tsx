@@ -46,7 +46,7 @@ function LandingPage(props: IBasePageHOCProps) {
     temperatureService
       .sendRecord({
         value: temperature,
-        time: Date.now() / 1000,
+        time: Date.now(),
       })
       .then((response) => {
         if (response.status === ResponseStatus.Success) {
@@ -70,7 +70,7 @@ function LandingPage(props: IBasePageHOCProps) {
     humidityService
       .sendRecord({
         value: humidity / 100,
-        time: Date.now() / 1000,
+        time: Date.now(),
       })
       .then((response) => {
         if (response.status === ResponseStatus.Success) {
